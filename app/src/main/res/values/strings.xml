@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Money Manager</string>
+    <string name="category">Category</string>
+    <string name="period">Period</string>
+    <string name="report">Report</string>
+    <string name="help">Help</string>
+    <string name="open">Open</string>
+    <string name="close1">Close</string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+    <string name="error_message_email">Enter Valid Name</string>
+    <string name="text_member">Already a member? Login</string>
+    <string name="error_password_match">Password Does Not Matches</string>
+    <string name="error_message_name">Enter Full Name</string>
+    <string name="error_message_password">Enter Password</string>
+    <string name="success_message">Registration Successful</string>
+    <string name="error_email_exists">Account Already Exists</string>
+    <string name="select">Select Category Type</string>
+
+
+
+    <string-array name="categories">
+        <item>Food</item>
+        <item>Clothes</item>
+        <item>Communication</item>
+        <item>Eating out</item>
+        <item>Health</item>
+        <item>House</item>
+        <item>Transport</item>
+        <item>Sport</item>
+        <item>Internet</item>
+        <item>Baby care </item>
+
+    </string-array>
+
+</resources>

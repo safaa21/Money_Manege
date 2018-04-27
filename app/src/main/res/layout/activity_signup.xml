@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/nestedScrollView"
+    android:background="@drawable/ds"
+    tools:context=".Activities.signup">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:paddingTop="180dp"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayoutName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/name"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/ic_person_black_24dp"
+                android:drawablePadding="17dp"
+                android:ems="10"
+                android:hint="User name"
+                android:inputType="textEmailAddress" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayoutPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/pass1"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+            android:drawablePadding="17dp"
+            android:ems="10"
+            android:layout_gravity="center"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayoutConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/pass2"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+            android:ems="10"
+            android:drawablePadding="17dp"
+            android:hint="Confirm Password"
+            android:layout_gravity="center"
+            android:inputType="textPassword" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/BTN_SIGNUP"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_signup"
+            android:text="Sign Up"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/appCompatTextViewLoginLink"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="@string/text_member"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16dp"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+
+
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+
+</android.support.v4.widget.NestedScrollView>

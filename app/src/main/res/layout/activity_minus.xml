@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#ffeaf4"
+    android:layout_height="match_parent"
+    tools:context=".Activities.minus">
+
+    <TextView
+        android:id="@+id/spent"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:text="Add amount of spent"
+        android:textColor="#FF64102C"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif"
+        app:fontFamily="sans-serif-condensed" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="250dp"
+        android:layout_height="46dp"
+        android:drawableLeft="@drawable/ic_attach_money_black_24dp"
+        android:ems="10"
+        android:hint="Enter your balance"
+        android:inputType="number"
+        android:paddingBottom="100dp"
+        android:layout_marginTop="20dp"
+        android:drawablePadding="12dp"
+        android:padding="14dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="14dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <Button
+        android:id="@+id/add_spent"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/background_signup"
+        android:padding="14dp"
+        android:text="OK"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+
+</LinearLayout>

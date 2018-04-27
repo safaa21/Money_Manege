@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffeaf4"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Activities.plus">
+
+
+    <TextView
+        android:id="@+id/totalbalance"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:text="Add total balance"
+        android:textColor="#FF64102C"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif"
+        app:fontFamily="sans-serif-condensed" />
+
+    <EditText
+        android:id="@+id/balance"
+        android:layout_width="250dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="50dp"
+        android:drawableLeft="@drawable/ic_attach_money_black_24dp"
+        android:ems="10"
+        android:hint="Enter your balance"
+        android:inputType="number"
+        android:paddingBottom="100dp"
+        android:drawablePadding="12dp"
+        android:padding="14dp" />
+
+    <Button
+        android:id="@+id/add_balance"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:padding="14dp"
+        android:background="@drawable/background_signup"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:layout_marginTop="150dp"/>
+</LinearLayout>
